@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700;800;900;1000&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/fa_inter_logo.png">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/venobox.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+    <title>FA international</title>
+</head>
+
+<body>
+    <!-- ========== Start Section Nav ========== -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <div class="logo">
+                <img src="./images/fa_inter_logo.png" alt="fa_inter_logo.png">
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a href="event.html"><i class="fa-regular fa-calendar icon_font_upp"></i></a>
+                    <a class="nav-link active" aria-current="page" href="event.html">Events</a>
+                </li>
+                <li class="nav-item nav_link_find">
+                    <a href="#"><i class="fa-solid fa-location-dot font_size"></i></i></a>
+                    <a class="nav-link" href="#">Find us</a>
+                    <div class="find_us_mega_manu">
+                        <button type="button" class="btn btn-outline-success">
+                            <a href="office_location.html">Find Offices near you</a>
+                        </button>
+                        <div style="overflow-y: scroll; height: 170px;">
+                            <strong>Others FA Website</strong>
+                            <ul style="padding-left: 10px;" class="nav_mega_find_us_list_font">
+                                <li style="display: block;">
+                                    <a href="index.html">FA Bangladesh</a>
+                                    <a href="find_us_autralia.html">FA Australia</a>
+                                    <a href="study_in_canada.html">FA Canada</a>
+                                    <a href="find_india.html">FA India</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <form class="d-flex nav_form_left_pos">
+                <div class="search_icon">
+                    <i class="fa-solid fa-magnifying-glass search_icon_show"></i>
+                </div>
+                <input class="form-control search_long me-2 search_icon_show" type="search"
+                    placeholder="Search courses, universities, scholarships or events" aria-label="Search">
+    
+            </form>
+            <form action="" method="post" class="nav_btn_pos">
+                <button name="register" class="btn btn-outline-dark reg_btn" type="submit">
+                    <a href="register.html"><i class="fa-solid fa-user-plus"></i></a>
+                    <a href="register.html" class="">Register</a>
+                </button>
+            </form>
+        </div>
+    </nav>
+    <!-- ========== End Section Nav ========== -->
+    <!-- ========== Start Section Search Part ========== -->
+    <section id="search_part">
+        <div class="container">
+            <i class="fa-solid fa-xmark search_item_hide"></i>
+            <div class="row nav_drop_bg">
+                <div class="col-lg-3 p-0">
+                    <div class="item">
+                        <a href="#">Search for courses</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 p-0">
+                    <div class="item" style="background: #d9d9d6;">
+                        <a href="#">Search for courses</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 p-0">
+                    <div class="item" style="background: #d9d9d6;">
+                        <a href="#">Find a Scholership</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 p-0">
+                    <div class="item nav_item_bord" style="background: #d9d9d6;padding: 37px;">
+                        <a href="#">Even</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 nav_drop_padd mt-4">
+                    <form action="#" method="post" class="form-select nav_drop_width">
+                        <select name="" id="" class="nav_input_width">
+                            <option value="">Select study level</option>
+                            <option value="">Doctorate</option>
+                            <option value="">Undergraduate</option>
+                            <option value="">University Preparation</option>
+                            <option value="">Vocational (VET)</option>
+                            <option value="">English Language</option>
+                            <option value="">School</option>
+                        </select>
+                    </form>
+                    <button class="drop_btn_srch mt-4"><input type="text"
+                            placeholder="Course subject e.g. law"></button>
+                    <div class="nav_btn_right">
+                        <button type="submit" class="btn btn-primary btn-sm  bg-success">
+                            <a href="#">Find my Ideal Course</a>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="nav_Popular_course_searc">
+                <h3 class="mb-2">Popular course searches</h3>
+                <button type="button" class="btn btn-outline-secondary">
+                    <a href="#"> Law</a></button>
+                <button type="button" class="btn btn-outline-secondary">
+                    <a href="#"> Business and Management</a></button>
+                <button type="button" class="btn btn-outline-secondary">
+                    <a href="#"> Information Technology</a></button>
+                <button type="button" class="btn btn-outline-secondary">
+                    <a href="#">Engineering </a></button>
+                <button type="button" class="btn btn-outline-secondary">
+                    <a href="#"> Architecture</a></button>
+            </div>
+        </div>
+    </section>
+    <!-- ========== End Section Search Part ========== -->
+    <!-- ========== Start Section Header Part ========== -->
+    <header>
+        <div class="heade_without_con" style="position: relative;">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- start mega manu -->
+                    <div class="header_item">
+                        <ul class="header_list">
+                            <li class="heade_mega_menu_rela">
+                                <a href="#" class="text-white heade_title_marg">Study abroad?
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </a>
+                                <!-- start mega manu study -->
+                                <div class="header_mega_menu mega_head_icon_pos">
+                                    <ul class="p-0">
+                                        <li class="heade_mega_study_tow_list">
+                                            <a href="#">Study abord?<i class="fa-solid fa-angle-right"></i></a>
+                                            <div class=" head_mega_study_tow_show">
+                                                <ul class="p-0">
+                                                    <li><a href="#">Study tow<i class="fa-solid fa-angle-right"></i></a>
+                                                    </li>
+                                                    <li><a href="#">Study tow</a></li>
+                                                    <li><a href="#">Study tow</a></li>
+                                                    <li><a href="#">Study tow</a></li>
+                                                    <li><a href="#">Study tow</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="#">Study abord?<i class="fa-solid fa-angle-right"></i></a></li>
+                                        <li><a href="#">Study abord?<i class="fa-solid fa-angle-right"></i></a></li>
+                                        <li><a href="#">Study abord?<i class="fa-solid fa-angle-right"></i></a></li>
+                                        <li><a href="#">Study abord?</a></li>
+                                    </ul>
+                                </div>
+                                <!-- end mega manu study -->
+                            </li>
+                            <!-- start mega manu explore -->
+                            <li class="heade_mega_menu_exp_list">
+                                <a href="#" class="text-white heade_title_marg ">Explore countries <i
+                                        class="fa-solid fa-angle-right"></i></a>
+                                <div class="header_mega_menu head_mega_manu_exp_show">
+                                    <ul class="p-0">
+                                        <li><a href="#">Study<i class="fa-solid fa-angle-right"></i></a></li>
+                                        <li><a href="#">Study<i class="fa-solid fa-angle-right"></i></a></li>
+                                        <li><a href="#">Study<i class="fa-solid fa-angle-right"></i></a></li>
+                                        <li><a href="#">Study<i class="fa-solid fa-angle-right"></i></a></li>
+                                        <li><a href="#">Study</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- end mega manu explore -->
+                            <!-- start mega manu find -->
+                            <li class="head_mega_find_list">
+                                <a href="study_next_page.html" class="text-white heade_title_marg">Find a course <i
+                                        class="fa-solid fa-angle-right"></i></a>
+                                <div class="header_mega_menu head_mega_manu_find_show">
+                                    <ul class="p-0">
+                                        <li><a href="#">Study<i class="fa-solid fa-angle-right"></i></a></li>
+                                        <li><a href="#">Study<i class="fa-solid fa-angle-right"></i></a></li>
+                                        <li><a href="#">Study<i class="fa-solid fa-angle-right"></i></a></li>
+                                        <li><a href="#">Study<i class="fa-solid fa-angle-right"></i></a></li>
+                                        <li><a href="#">Study</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- end mega manu find -->
+                            <!-- start mega manu what -->
+                            <li class="head_mega_what_list">
+                                <a href="what_we_do.html" class="text-white heade_title_marg">What we do? <i
+                                        class="fa-solid fa-angle-right"></i></a>
+                                <div class="header_mega_menu head_mega_manu_what_show">
+                                    <ul class="p-0">
+                                        <li><a href="#">Study<i class="fa-solid fa-angle-right"></i></a></li>
+                                        <li><a href="#">Study<i class="fa-solid fa-angle-right"></i></a></li>
+                                        <li><a href="#">Study<i class="fa-solid fa-angle-right"></i></a></li>
+                                        <li><a href="#">Study<i class="fa-solid fa-angle-right"></i></a></li>
+                                        <li><a href="#">Study</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- end mega manu what -->
+                            <!-- start mega manu student -->
+                            <li class="head_mega_student_list">
+                                <a href="#" class="text-white heade_title_marg">Student Esentials <i
+                                        class="fa-solid fa-angle-right"></i></a>
+                                <div class="header_mega_menu head_mega_manu_student_show">
+                                    <ul class="p-0">
+                                        <li><a href="#">Study<i class="fa-solid fa-angle-right"></i></a></li>
+                                        <li><a href="#">Study<i class="fa-solid fa-angle-right"></i></a></li>
+                                        <li><a href="#">Study<i class="fa-solid fa-angle-right"></i></a></li>
+                                        <li><a href="#">Study<i class="fa-solid fa-angle-right"></i></a></li>
+                                        <li><a href="#">Study</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#" class="text-white heade_title_marg">FA Fastlane</a></li>
+                        </ul>
+                        <!-- end mega manu student -->
+                    </div>
+                    <!-- end mega manu -->
+                    <div class="header_icons btn bg-white">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ========== End Section Header Part ========== -->
+
+    <!-- ========== Start Section register Part ========== -->
+    <section id="login_part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="reg_text">
+                        <div class="logo" style="width: 250px;">
+                            <img src="./images/fa_inter_logo.png" alt="fa_inter_logo" width="100%">
+                        </div>
+                        <div class="title">
+                            <h2>FA has been helping international students for over 50 years</h2>
+                            <p>Our full suite of student placement services and support is available to you</p>
+                            <ul class="reg_list_col my-2">
+                                <li>Supporting you in every step of your study abroad journey</li>
+                                <li>Approachable international education experts</li>
+                                <li>Get instant offer with FA FastLane</li>
+                                <li>Proud co-owners of IELTS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <form action="#" method="post" class="form-control">
+                        <div class="title text-center">
+                            <h2>Login in with your Email</h2>
+                            <p>If you are new to FA international, <a href="register.html">Create your Account</a></p>
+                        </div>
+                        <div class="mb-4 reg_input_pad">
+                            <input type="email" class="form-control mb-2" name="email" placeholder="Email Address*">
+                        </div>
+                        <div class="mb-4 reg_input_pad">
+                            <input type="password" class="form-control mb-2" name="pass" placeholder="Password">
+                        </div>
+                        <a style="margin-left: 10px;" href="#">Reset your Password</a>
+                        <div class="mt-4 login_btn_desigin">
+                            <button type="button" class="btn btn-secondary">
+                                <a class="text-white" href="office_location.html">Login</a>
+                            </button>
+                        </div>
+                        <!-- form FA office start -->
+                        </div>
+                        <!-- <button class="btn study_form_btm_btn">
+                            <a href="#">Get Personal advice</a>
+                        </button> -->
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- ========== End Section register Part ========== -->
+
+    <!-- ========== Start Section just headeline ========== -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footer_item">
+                        <ul>
+                            <li><a href="#"><strong> Study abroad</strong></a></li>
+                            <li><a href="#">Student Essentials</a></li>
+                            <li><a href="#">Destinations</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Study abroad FAQ</a></li>
+                            <li><a href="#">Scholarships</a></li>
+                            <li><a href="#">QS World University Ranking</a></li>
+                            <li><a href="#">How to choose a course</a></li>
+                            <li><a href="#">Institution answers</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer_item">
+                        <ul>
+                            <li><a href="#"><strong> Study abroad</strong></a></li>
+                            <li><a href="#">Student Essentials</a></li>
+                            <li><a href="#">Destinations</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Study abroad FAQ</a></li>
+                            <li><a href="#">Scholarships</a></li>
+                            <li><a href="#">QS World University Ranking</a></li>
+                            <li><a href="#">How to choose a course</a></li>
+                            <li><a href="#">Institution answers</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer_item">
+                        <ul>
+                            <li><a href="#"><strong> Study abroad</strong></a></li>
+                            <li><a href="#">Student Essentials</a></li>
+                            <li><a href="#">Destinations</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Study abroad FAQ</a></li>
+                            <li><a href="#">Scholarships</a></li>
+                            <li><a href="#">QS World University Ranking</a></li>
+                            <li><a href="#">How to choose a course</a></li>
+                            <li><a href="#">Institution answers</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer_item">
+                        <ul>
+                            <li><a href="#"><strong> Study abroad</strong></a></li>
+                            <li><a href="#">Student Essentials</a></li>
+                            <li><a href="#">Destinations</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Study abroad FAQ</a></li>
+                            <li><a href="#">Scholarships</a></li>
+                            <li><a href="#">QS World University Ranking</a></li>
+                            <li><a href="#">How to choose a course</a></li>
+                            <li><a href="#">Institution answers</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_copyright">
+            <div class="container">
+                <div class="footer_copyright_item">
+                    <strong class="copyright_stng">Copyright © 2023 FA Education</strong>
+                    <ul class="footer_copyright_list">
+                        <li><a href="">Disclaimer | </a></li>
+                        <li><a href="">Privacy Policy | </a></li>
+                        <li><a href="">Terms Of Use | </a></li>
+                        <li><a href="#">Investors</a></li>
+                    </ul>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/fullstackdeveloperbdyamin/">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/frontend-developer-yamin/">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://twitter.com/mdyamin07812145">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ========== Start Section Favorite ========== -->
+    <!-- ========== Start Section js ========== -->
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js"></script>
+    <!-- <script src="../js/all.min.js"></script> -->
+    <script src="../js/waypoints.min.js"></script>
+    <script src="../js/venobox.min.js"></script>
+    <!-- <script src="../js/jquery.counterup.min.js"></script> -->
+    <!-- <script src="../js/mixitup.min.js"></script> -->
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/script.js"></script>
+
+    <!-- ========== End Section js ========== -->
+</body>
+
+</html>
